@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeatherpyBootStrap2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/weatherpy.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+                <h1>
+                    <a href="default.html">
+                        <button class="btn btn-primary" type="button"> Lattitude</button>
+                        <span class="badge"></span>
+                    </a>
+                </h1>
+
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Plots 
+                                    <span class="caret"></span>
+                                </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="MaxTemperature.html">MaxTemperature</a></li>
+                            <li><a href="Cloudiness.html">Cloudiness</a></li>
+                            <li><a href="Humidity.html">Humidity</a></li>
+                            <li><a href="WindSpeed.html">WindSpeed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Comparision.html">Comparision</a></li>
+                    <li><a href="CityData.html">Data</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row rowblock">
+                    <h1>Comaparision: Lattitude Vs X</h1>
+                    <hr>
+                    <h5>Click any plot to get an in-depth analysis:</h5>
+                    <div class="col-md-6">
+                        <div class="caption">
+                            <h3>Vs.Max Temperature</h3>
+                        </div>
+                        <a href="MaxTemperature.html" class="thumbnail">
+                        <img src="./images/output_10_0.png"   alt="...">
+                    </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="caption">
+                            <h3>Vs.Humidity</h3>
+                        </div>
+                        <a href="Cloudiness.html" class="thumbnail">
+                        <img src="./images/output_14_0.png"   alt="...">
+                    </a>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="caption">
+                            <h3>Vs.Cloudiness</h3>
+                        </div>
+                            <a href="Humidity.html" class="thumbnail">
+                        <img src="./images/output_12_0.png"   alt="...">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="caption">
+                            <h3>Vs.Wind Speed</h3>
+                        </div>
+                        <a href="WindSpeed.html" class="thumbnail">
+                         <img src="./images/output_16_0.png"   alt="...">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <footer>
+        <div>
+                <span> Some copyright info or perhaps some author.</span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

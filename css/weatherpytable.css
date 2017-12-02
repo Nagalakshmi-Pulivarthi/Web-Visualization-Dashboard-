@@ -1,0 +1,47 @@
+body{
+    background: #ededed;
+}
+.navbar-default{
+    background: #ffffff;
+}
+
+.navbar-brand{
+    margin:20px;
+    border-color:#4aaaa5;
+    border:10px;
+}
+.navbar-collapse{
+
+margin-right:40px;
+
+
+}
+.rowblock{
+    margin-right:20px;
+  
+    min-height: 700px;
+    background-color:white;
+    padding:10px;
+    margin-top: 150px;
+    margin-bottom:30px;
+    width: 800px;
+}
+.btn-primary{
+    background-color: #4aaaa5;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+h1{
+    font-weight: bold;
+    
+    
+    
+    color:#4aaaa5;
+}
+td{
+    font-style:bold;
+    
+}

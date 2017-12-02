@@ -1,0 +1,56 @@
+body{
+    background: #ededed;
+}
+
+.navbar-default{
+    background: #ffffff;
+}
+.btn-primary{
+    background-color: #4aaaa5;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.navbar-collapse{
+
+margin-right:40px;
+
+
+}
+.rowblock{
+    margin-right:20px;
+  
+    min-height: 700px;
+    background-color:white;
+    padding:10px;
+    margin-top: 150px;
+    margin-bottom:30px;
+    width: 600px;
+}
+
+.rowblock1{
+    
+    min-height: 700px;
+    background-color:white;
+    padding:10px;
+    margin-top: 150px;
+    margin-left:-70px;
+    width:600px;
+}
+
+.thumbnail{
+    border-color: #4aaaa5;
+    border-width: 2px;
+
+}
+h1{
+    font-weight: bold;
+    margin-top:40px;
+    
+    margin-left: 30px;
+    margin-right: 0;
+    color:#4aaaa5;
+}
+p{
+    margin:20px;
+}

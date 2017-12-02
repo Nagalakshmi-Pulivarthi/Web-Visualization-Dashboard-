@@ -1,0 +1,46 @@
+
+body{
+    background: #ededed;
+}
+.rowblock{
+    margin-right:50px;
+    margin-left:50px;
+    min-height: 790px;
+    background-color:white;
+    padding:10px;
+    margin-top: 150px;
+    margin-bottom:20px;
+}
+.navbar-default{
+    background: #ffffff;
+}
+.navbar-collapse{
+
+margin-right:40px;
+
+
+}
+.btn-primary{
+    background-color: #4aaaa5;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+h1{
+    font-weight: bold;
+    margin-top:40px;
+    
+    margin-left: 30px;
+    margin-right: 0;
+    color:#4aaaa5;
+}
+h3{
+    color:#4aaaa5;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+h5{
+    margin-left:40px;
+}
