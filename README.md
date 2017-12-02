@@ -1,22 +1,20 @@
-# Unit 12 | Assignment - Web Visualization Dashboard (Lattitude)
+#  Web Visualization Dashboard (Lattitude)
 
 ## Background
 
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-<img alt="Landing page large screen" src="images/landing-lg.png" width=600>
+
 
 ## Lattitude - Latitude Analysis Dashboard with Attitude
 
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be using the data from [HW06](../../HW06-WebAPIs).
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+
+In building this dashboard,  created individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website Requirements
 
-For reference, see the ["Screenshots" section](#screenshots) below.
 
-The website must consist of 7 pages total, including:
+
 
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
@@ -54,52 +52,32 @@ When finished, submit to BootcampSpot the links to 1) the deployed app and 2) th
 * Be sure your website works at all window widths/sizes.
 * Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
 
-### Bonuses
+
 
 * Use a different dataset! The requirements above still hold, but make it your own.
-* Use a bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
 
-### Screenshots
+* Used a bootstrap theme to customize  website. 
 
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
 
+* Have visualization navigation on every visualizations page with an active state.
+
+These are the Pages List:
 #### Landing page
 
-Large screen:
-![Landing page large screen](images/landing-lg.png)
 
-Small screen:
-![Landing page small screen](images/landing-sm.png)
-￼
 
 #### Comparisons page
 
-Large screen:
-![comparison page large screen](images/comparison-lg.png)
 
-Small screen:
-![comparison page small screen](images/comparison-sm.png)
 
 #### Data page
 
-Large screen:
-![data page large screen](images/data-lg.png)
-
-Small screen:
-![data page small screen](images/data-sm.png)
 
 #### Visualization pages
 
-You'll build four of these, one for each visualization. Here's an example of one:
 
-Large screen:
-![visualize page large screen](images/visualize-lg.png)
 
-Small screen:
-![visualize page small screen](images/visualize-sm.png)
+
 
 #### Navigation menu
 
