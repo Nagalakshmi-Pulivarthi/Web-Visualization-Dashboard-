@@ -1,0 +1,133 @@
+
+body{
+    background: #ededed;
+    border-bottom-color: #4aaaa5;
+    font-size: 20px;
+    min-height: 100%;
+}
+.rowblock{
+    min-height: 650px;
+    background-color:white;
+    padding:10px;
+    margin-top: 140px;
+    margin-bottom:-100px;
+    margin-left:5px;
+    margin-right:5px;    
+    /*width:800px;*/
+}
+
+.rowblock1{
+    
+    min-height: 650px;
+    background-color:white;
+    padding:10px;
+    margin-top: 140px;
+    margin-right: 5px;
+    margin-left: 5px;
+    /*width:400px;*/
+}
+.navbar-collapse{
+
+margin-right:40px;
+
+
+}
+.dropdown-toggle{
+    margin-bottom: 20px;
+}
+
+.navbar-default{
+    background: #ffffff;
+    
+
+}
+.media-body{
+    margin-top:50px;
+}
+img{
+    padding:5px;
+    vertical-align:left;
+}
+.btn-primary{
+    background-color: #4aaaa5;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+.navbar-brand{
+    margin:20px;
+    border-color:#4aaaa5;
+    border:10px;
+}
+
+h1{
+    font-weight: bold;
+    margin-top:10px;
+    
+    margin-left: 0;
+    margin-right: 0;
+    color:#4aaaa5;
+}
+.thumbnail{
+    border-color: #fff;
+}
+a.thumbnail.active{
+    border-color: #4aaaa5;
+    border-width: 2px;
+}
+h3{
+    color:#4aaaa5;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+.container
+{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+position:fixed;
+bottom: 0px;
+left: 0px;
+right: 0px;
+}
+footer>div{
+    background-color: #4aaaa5;
+    position: static;
+    padding-top: 10px;
+}
+footer>div>span{
+    background-color: gray;
+    display: block;
+    height: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.media-body>.media-object{
+    float:left;
+}
+
+@media( max-width: 1200px)
+{
+    .container
+    {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .rowblock1 {
+        min-height: 300px;
+    }
+    .rowblock1 > .col-md-6 {
+        width: 25%;
+        float: left;
+    }
+}
